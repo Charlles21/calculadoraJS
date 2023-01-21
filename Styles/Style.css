@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;    
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;    
+}
+
+#form{
+    margin-top: 11%;   
+}
+
+input{
+    width: 25%;
+    height: 35px;
+    box-sizing: border-box;
+    margin-top: 8px;
+   border-top: rgba(0, 0, 0, 0);
+   border-left: rgba(0, 0, 0, 0);
+   border-right: rgba(0, 0, 0, 0);
+}
+
+#selector{
+    margin-top: 8px;
+    width: 45px;
+    height: 25px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+button{
+    margin-top: 16px;
+    width: 15%;
+    height: 35px;
+    color: rgba(32, 0, 148, 0.555);
+    
+    background-color: rgb(4, 247, 255);
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+
+button:hover{    
+ 
+    color: rgba(0, 0, 0, 0.555);
+    background-color: rgb(46, 221, 198);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
